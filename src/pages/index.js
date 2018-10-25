@@ -22,9 +22,10 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location}>
         <Helmet
           htmlAttributes={{ lang: 'en' }}
-          meta={[{ name: 'description', content: siteDescription }]}
-          title={siteTitle}
-        />
+        >
+            <title>Vladislav Nabatov</title>
+            <meta name="description" content="Vladislav Nabatov's website"/>
+        </Helmet>
         <Bio />
         {/*{posts.map(({ node }) => {*/}
           {/*const title = get(node, 'frontmatter.title') || node.fields.slug*/}

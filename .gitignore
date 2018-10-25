@@ -276,7 +276,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+
 .cache/
+public/
 
 
 # End of https://www.gitignore.io/api/node,linux,macos,windows,webstorm,intellij+all

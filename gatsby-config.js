@@ -3,7 +3,7 @@ module.exports = {
     title: 'Vladislav Nabatov',
     author: 'Vladislav Nabatov',
     description: 'Vladislav Nabatov\'s website',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    siteUrl: 'https://vladislavnabatov.com',
   },
   pathPrefix: '/gatsby-starter-blog',
   plugins: [
@@ -48,13 +48,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Vladislav Nabatov's website`,
+        short_name: `Vladislav Nabatov`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/gatsby-icon.png`,
+        icon: `src/assets/android-chrome-512x512.png`,
       },
     },
     `gatsby-plugin-offline`,
