@@ -15,22 +15,10 @@ class Bio extends React.Component {
           display: 'flex'
         }}
       >
-        {/*<img*/}
-          {/*src={profilePic}*/}
-          {/*alt={`Kyle Mathews`}*/}
-          {/*style={{*/}
-            {/*marginRight: rhythm(1 / 2),*/}
-            {/*marginBottom: 0,*/}
-            {/*width: rhythm(2),*/}
-            {/*height: rhythm(2),*/}
-          {/*}}*/}
-        {/*/>*/}
         <p>
-            Hello! I am <strong>Vladislav Nabatov</strong>. Software engineer, currently doing React.
-          <br/>
-          <a href="https://twitter.com/nabatov_v">
-            Follow me on twitter
-          </a>
+          Hello! I am <strong>Vladislav Nabatov</strong>. Software engineer, currently doing React.
+          <br />
+          Say <a href="mailto:hi@vladislavnabatov.com">hi@vladislavnabatov.com</a>
         </p>
       </div>
     )
